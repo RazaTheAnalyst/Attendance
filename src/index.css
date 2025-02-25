@@ -1,0 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import AttendanceApp from "./App";  // Make sure this matches exactly!
+import "./index.css";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <AttendanceApp />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
